@@ -1,9 +1,10 @@
 
 import './App.css';
-import ListaProdutos from './components/ListaProdutos';
-import SeuNome from './components/SeuNome';
+// import ListaProdutos from './components/ListaProdutos';
+// import SeuNome from './components/SeuNome';
+import Calculator from './main/Calculator';
 import React from 'react'
-import Classe from './Classe';
+// import Classe from './Classe';
 // import Familia from './components/Familia';
 // import Membro from './components/Membro';
 // import Pai from './components/Pai';
@@ -47,9 +48,12 @@ function App() {
 <UsuarioLogado usuario={{}} /> */}
 
 
-<ListaProdutos></ListaProdutos>
+{/* <ListaProdutos></ListaProdutos>
 <SeuNome></SeuNome>
-<Classe></Classe>
+<Classe></Classe> */}
+
+<h1>Calculator</h1>
+      <Calculator/>
 
 
 {/* < Contador inicial = {0} passo = {10} limite = {100}/>< Contador inicial = {100} passo = {20} limite = {500}/> */}
